@@ -1,0 +1,10 @@
+{
+  "name": "drips",
+  "version": "0.1.0",
+  "author": "Evan Barter <evan@fuseinteractive.ca>",
+  "description": "Simple project file watcher which emits socket messages when files change",
+  "dependencies" : {
+    "socket.io" : ">=0.9.10",
+    "watchr" : ">=2.1.3"
+  }
+}
