@@ -7,7 +7,7 @@ Drips allows you to set up a file system watcher which, upon detecting a changed
 3. There is no step 3.
 
 ## See Also
-[https://github.com/evanbarter/puddles](Puddles) is a simple implementation for Drupal. I am not an imaginative project namer.
+[Puddles](https://github.com/evanbarter/puddles) is a simple implementation for Drupal. I am not an imaginative project namer.
 
 ## Acknowledgements
-Utilizes [https://github.com/bevry/watchr](Watchr) and [https://github.com/learnboost/socket.io](socket.io)
+Utilizes [Watchr](https://github.com/bevry/watchr) and [socket.io](https://github.com/learnboost/socket.io)
