@@ -7,7 +7,7 @@ Puddles allows you to set up a file system watcher which, upon detecting a chang
 3. There is no step 3.
 
 ## See Also
-[Puddles for Drupal](https://github.com/evanbarter/puddles) is a simple implementation.
+[Puddles for Drupal](https://github.com/evanbarter/puddles-drupal) is a simple implementation.
 
 ## Acknowledgements
 Utilizes [Watchr](https://github.com/bevry/watchr) and [socket.io](https://github.com/learnboost/socket.io)
