@@ -9,7 +9,7 @@ projects.forEach(function (element, index, array) {
   watchr.watch({
     path: element.path,
     listener: function (eventName, filePath, fileCurrentStat, filePreviousStat) {
-        conn.emit('event', { file: filePath });
+      conn.emit('event', { file: filePath });
     },
     next: function (err, watcher) {
       if (err) throw err
