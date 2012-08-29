@@ -8,12 +8,12 @@ projects.forEach(function (element, index, array) {
 
   watchr.watch({
     path: element.path,
-    listener: function (eventName, filePath, fileCurrentStat, filePreviousStat){
+    listener: function (eventName, filePath, fileCurrentStat, filePreviousStat) {
         conn.emit('event', { file: filePath });
     },
     next: function (err, watcher) {
-        if (err) throw err
-        console.log('watching setup successfully for ' + element.name)
+      if (err) throw err
+      console.log('watching setup successfully for ' + element.name)
     }
   })
 })
